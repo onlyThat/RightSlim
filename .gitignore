@@ -1,0 +1,20 @@
+# 构建产物
+build/
+dist/
+
+# 安装脚本的中文语言包由 installer/make-icon.ps1 流程外单独下载，保留在版本库中
+# （如需更新，从 Inno Setup 官方仓库下载同名文件覆盖即可）
+
+# 测试编译产物
+build/TestRunner.exe
+build/EndToEnd.exe
+build/UiFlow.exe
+
+# 临时文件
+*.tmp
+*.log
+*.user
+*.suo
+.vs/
+Thumbs.db
+desktop.ini
